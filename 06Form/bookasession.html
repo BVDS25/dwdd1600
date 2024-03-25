@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="description" content="Book your next photoshoot"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="bookasession.css">
+    
+    <meta charset="UTF-8">
+    <title>B.Snap Studio</title>
+</head>
+<body>
+    <!-- start the page header -->
+    <header>
+        <h1>B.Snap Studio</h1>
+        <p>Professional Photography Services</p>
+    </header>
+    
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">About Me</a></li>
+            <li class="active"><a href="bookasession.html">Book a session</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+    <!-- start the page main -->
+    <main>
+        <h1>Book a session</h1>
+        <form method="get" class="myForm" action="thanks.html">
+
+        <fieldset>
+            <legend>Customer Information</legend>
+        <label> First Name*<input type="text" name="fname" required></label>
+        <label> Last Name*<input type="text" name="lname" required></label>
+        <label> Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label>
+        <label> Email*<input type="text" name="email" required></label>
+        </fieldset>
+
+        <fieldset>
+        <legend>Location</legend>
+            <label><input type="radio" name="method" value="drone">Zion National Park</label>
+            <label><input type="radio" name="method" value="cycle">Arches National Park</label>
+            <label><input type="radio" name="method" value="robot">Grand Teton National Park</label>
+            <label><input type="radio" name="method" value="cycle">Salt Lake City Temple</label>
+            <label><input type="radio" name="method" value="cycle">Spiral Yeti</label>
+            <label><input type="radio" name="method" value="cycle">Delicate Arch</label>
+            <label><input type="radio" name="method" value="cycle">Salt Flats</label>
+            <label><input type="radio" name="method" value="cycle">Park City</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Ocassion</legend>
+            <label><input type="checkbox" name="birthday" value="chosen"> Birthday</label>
+            <label><input type="checkbox" name="anniversary" value="chosen"> Anniversary</label>
+            <label><input type="checkbox" name="engagement" value="chosen"> Engagement</label>
+            <label><input type="checkbox" name="wedding" value="chosen"> Wedding</label>
+            <label><input type="checkbox" name="graduation" value="chosen"> Graduation</label>
+            <label><input type="checkbox" name="other" value="chosen"> Other</label>
+
+            <Label>
+                Comments
+                <textarea name="comments" required></textarea>
+                </Label>
+            </fieldset>
+
+            <fieldset>
+            <label>Preferred Photoshoot time
+                <select name="time">
+                <option value="none">Please Select</option>
+                <option value="sunrise">Between 5:00am and 7:30am</option>
+                <option value="morning">Between 8:00am and 10:30pm</option>
+                <option value="afternoon">Between 3:00pm and 5:00pm</option>
+                <option value="sunset">Between 6:00pm and 8:00pm</option>
+            </select>
+            </label>
+            </fieldset>
+            
+
+           
+
+
+        <input type="submit" value="Send Delivery Request">
+        </form>
+    </main>
+    
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy;2024 &bull; B.Snap studio &bull; <a href="b.snapstudio@gmail.com">Email Us</a> </p>
+    </footer>
+</body>
+</html>

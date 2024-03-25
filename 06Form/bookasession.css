@@ -1,0 +1,158 @@
+
+body {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+body { 
+        font-family: "Lora", serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+}
+/* header stuff here */
+header {
+    
+    padding: 1rem 2vw;
+}
+header h1 {
+    margin: 0;
+    color: #733F2D;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+header p {
+    margin: 0;
+    color: #BFA18F;
+    font-size: 1.22rem;
+    letter-spacing: 2px;
+}
+
+/* navigation stuff here */
+nav {
+    background-color: #BFA18F;
+}
+nav ul {
+    margin: 0;
+    padding: 0 2vw;
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: .95rem 1rem .83rem 1rem;
+    font-size: .8rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+nav .active a {
+    background-color: #733F2D;
+    color: #ffffff;
+}
+nav a:hover {
+    background-color: #A67F68;
+}
+
+
+/* main stuff here */
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #733F2D;
+    font-size: 2.5rem;
+    margin: .5rem 0 .8rem 0;
+}
+main h2 {
+    color: #5c3a2e;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #2f3133;
+    margin: 0 0 .8rem 0;
+    line-height: 150%
+}
+main a {
+    color: #733F2D;
+}
+
+.wrapimage {
+    width: 50%;
+    margin: 0;
+    float: right;
+    margin-left: 2vw;
+}
+.wrapimage img {
+    width: 100%;
+    height: auto;
+}
+.wrapimage figcaption {
+    text-align: center;
+    font-size: .8rem;
+}
+
+.myForm fieldset {
+    border:1px solid #A67F68;
+    border-radius: 3px;
+    margin-bottom: 1rem; 
+}
+
+.myForm legend {
+    color: #A67F68;
+    font-size: .8rem;
+}
+
+.myForm label {
+    margin: .5rem;
+}
+
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm textarea {
+    display: block;
+}
+
+.myForm [Type=text], .myForm [type=tel], .myForm select, .myForm textarea {
+    border: solid 1px #888;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 200;
+}
+
+.myForm textarea { 
+    height: 6rem;
+}
+
+.myForm :required {
+    background-color: rgba(156,51,53,0.1);
+}
+
+.myForm [type=submit] {
+background-color: #A67F68;
+border: none;
+padding: 1rem 2rem;
+border-radius: 10px;
+color: white;
+margin: 1rem 0 0 1vw;
+}
+
+
+/* footer stuff here */
+footer {
+    border-top: solid #ccc 2px;
+    text-align: center;
+    color: #868686;
+    font-size: .7rem;
+    padding: 1rem 0;
+    clear: both;
+}
+footer a {
+    color: #868686;
+}
